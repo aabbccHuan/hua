@@ -1,4 +1,3 @@
-import AllComponent from '../component'
 import LearnVideo from '../component/learnVideo'
 import Login from '../component/login'
 const route = [
@@ -16,6 +15,10 @@ const route = [
     //         }
     //     ]
     // },
+    {
+        path:'/',
+        component:LearnVideo    
+    },
     {
         path:'/login',
         component:Login    
